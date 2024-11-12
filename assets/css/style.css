@@ -873,6 +873,11 @@ video {
   line-height: 2rem;
 }
 
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1012,6 +1017,10 @@ h3 {
 
 .product-image img {
   max-width: 320px;
+}
+
+.owl-dot.active span{
+  background: var(--primary-color) !important;
 }
 
 span[title]:hover::after {
